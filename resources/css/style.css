@@ -66,6 +66,9 @@ ul li {
   padding-left: 2rem;
 }
 
+#menu {
+  display: none;
+}
 /**************************
 Banner text
 **************************/
@@ -207,17 +210,86 @@ footer {
     font-size: 1.33rem;
 
   }
-
-
 }
-
-
-
-
-
-
-
 
 /******************************************************************************
                             cell-phone version 480px
 *******************************************************************************/
+@media only screen and (max-width: 500px) {
+  .navi {
+    display: none;
+  }
+
+  #menu {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .logo_name p {
+    display: none;
+  }
+
+  .main {
+    height: 17rem;
+  }
+
+  .banner_text {
+    padding-top: 9rem;
+  }
+
+  .banner_text p {
+    width: 100%;
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .icons {
+    flex-direction: column;
+    margin-top: 3.77rem;
+  }
+
+  .icon_text {
+    font-size: 0.77rem;
+    padding-top: 1.54rem;
+  }
+
+  #paper,
+  #ruler,
+  #truck {
+    padding: 0rem;
+    padding-bottom: 1.54rem;
+  }
+
+  .content {
+    margin-top: 2.23rem;
+    flex-direction: column;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .text h1 {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+
+  .text p {
+    font-size: 0.77rem;
+    margin-bottom: 4rem;
+  }
+
+  #foot {
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #foot p {
+    display: none;
+  }
+}
