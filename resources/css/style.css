@@ -246,7 +246,10 @@ footer {
     display: none;
   }
 
-
+  .banner_text p {
+    /*padding: 1rem 1rem;*/
+    margin-top: 7rem;
+  }
 
 /******************************************************************************
                             cell-phone version 480px
