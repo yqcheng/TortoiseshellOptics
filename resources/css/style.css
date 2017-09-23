@@ -137,18 +137,15 @@ text
   margin-top: 3rem;
   display: flex;
   justify-content: center;
-  border: 1px solid red;
 }
 
 .text {
   width: 35%;
   padding-right: 5%;
-  border: 1px solid green;
 }
 
 .text h1 {
   width: 10rem;
-  border: 1px solid purple;
   font-weight: bold;
   color: white;
   background-color: cadetblue;
@@ -160,18 +157,32 @@ text
                     Footer styling
 *****************************************************/
 footer {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  margin-top: 5rem;
 }
+
+#foot {
+  background-color: azure;
+  padding: 4rem;
+  display: flex;
+  margin-top: 5rem;
+}
+
+#foot img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+
+/******************************************************************************
+                            tablet version 1024px
+*******************************************************************************/
+
+
+
+
+
+
+
+/******************************************************************************
+                            cell-phone version 480px
+*******************************************************************************/
