@@ -86,7 +86,6 @@ Banner text
   font-weight: bold;
   font-size: 2rem;
   padding: 1.5rem 5rem;
-  border: 1px solid red;
 }
 
 
@@ -94,9 +93,61 @@ Banner text
                     Content styling
 *****************************************************/
 
+/**************************
+icons
+**************************/
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+#paper,
+#ruler,
+#truck {
+  padding-left: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#paper img {
+  width: 3.5rem;
+}
+
+#ruler img {
+  width: 5rem;
+}
+
+#truck img {
+  width: 5rem;
+}
+
+.icon_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 
 
 /****************************************************
                     Footer styling
 *****************************************************/
+footer {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
