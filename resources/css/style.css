@@ -1,0 +1,102 @@
+html,
+body {
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.2;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+
+/******************************************************************************
+                                 Desktop version
+*******************************************************************************/
+
+
+/****************************************************
+                     Header styling
+*****************************************************/
+
+
+/**************************
+Navigation bar & logo
+**************************/
+.main {
+  background-image: url("../../resources/image/manBg.png");
+  height: 30rem;
+  background-size: cover;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo_name {
+  width: 100%;
+  display: flex;
+  justify-content: column;
+}
+
+.logo_name img {
+  height: 1.5rem;
+}
+
+.logo_name p {
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.logo_name,
+nav {
+  background-color: cadetblue;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+ul li {
+  padding-left: 2rem;
+}
+
+/**************************
+Banner text
+**************************/
+.banner {
+  width: 960px;
+  margin: auto;
+}
+
+.banner_text {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10rem;
+  margin-right: -2rem;
+}
+
+.banner_text p{
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 1.5rem 5rem;
+  border: 1px solid red;
+}
+
+
+/****************************************************
+                    Content styling
+*****************************************************/
+
+
+
+
+/****************************************************
+                    Footer styling
+*****************************************************/
