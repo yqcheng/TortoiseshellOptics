@@ -176,6 +176,41 @@ footer {
 /******************************************************************************
                             tablet version 1024px
 *******************************************************************************/
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  .main {
+    height: 22rem;
+  }
+
+  .logo_name,
+  nav {
+    margin-top: 0;
+  }
+
+  .banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .banner_text {
+    margin: 0;
+    padding-top: 5rem;
+  }
+
+  .banner_text p{
+    margin-right: 2rem;
+    padding: 1.5rem 4rem;
+    font-size: 1.33rem;
+
+  }
+
+
+}
+
 
 
 
